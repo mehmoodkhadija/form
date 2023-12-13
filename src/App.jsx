@@ -16,14 +16,14 @@ const App = () => {
           <div className="row">
             <div className="col-md-6 mb-3">
               <label htmlFor="firstName">First name</label>
-              <input type="text" className="form-control" id="firstName" placeholder defaultValue required />
+              <input type="text" className="form-control" id="firstName" placeholder= "Enter your first Name" />
               <div className="invalid-feedback">
                 Valid first name is required.
               </div>
             </div>
             <div className="col-md-6 mb-3">
               <label htmlFor="lastName">Last name</label>
-              <input type="text" className="form-control" id="lastName" placeholder defaultValue required />
+              <input type="text" className="form-control" id="lastName" placeholder= "Enter your last Name" />
               <div className="invalid-feedback">
                 Valid last name is required.
               </div>
@@ -32,7 +32,7 @@ const App = () => {
           <div className="row">
           <div className="col-md-6 mb-3">
           <label htmlFor="address">Address</label>
-            <input type="text" className="form-control" id="address" placeholder="1234 Main St" required />
+            <input type="text" className="form-control" id="address" placeholder="Enter your address" required />
             <div className="invalid-feedback">
               Please enter your shipping address.
             </div>
